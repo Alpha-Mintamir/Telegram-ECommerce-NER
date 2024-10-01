@@ -84,5 +84,8 @@ Telegram-ECommerce-NER/
 - [Ephrem M Merid](https://github.com/team-member-4)
 
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
 ## Acknowledgments
 - 10 Academy for providing the project requirements and guidance

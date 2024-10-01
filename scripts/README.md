@@ -34,6 +34,9 @@ This script is intended for scraping data from Telegram channels. (Assuming scra
 
 This script allows for the comparison of different models used in processing and classifying the Telegram message data. (Add specific functionalities and key functions as needed.)
 
+### 5. `ner_finetuning.py`
+This script is designed for fine-tuning a Named Entity Recognition (NER) model using the Hugging Face Transformers library. It includes functionalities for loading CoNLL data, preparing datasets, defining label encodings, and setting up the training process for NER tasks.
+
 ## Usage Instructions
 
 1. **Installation**:

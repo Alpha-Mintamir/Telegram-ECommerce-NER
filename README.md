@@ -43,11 +43,22 @@ Telegram-ECommerce-NER/
 │   └── __init__.py
 ├── notebooks/
 │   ├── __init__.py
+|   |──preprocessing_analysis.ipynb     # Jupyter notebook for amharic data processing
+|   |──ner_labelling.ipynb              # Jupyter notebook to label amharic tokens in conll format
+|   |──ner_finetuning.ipynb             # Jupyter notebook to fine-tune a Named Entity Recognition (NER) model 
+|   |──model_comparison.ipynb           # Jupyter notebook to compares different models for Named Entity Recognition (NER)
+|   |──qenashcom_sinayelj_leyueqa_model_comparison.ipynb      # Jupyter notebook to compares different models on combined conll data
+|   |
 │   └── README.md                       # Description of notebooks directory 
 ├── tests/
 │   └── __init__.py
 └── scripts/
     ├── __init__.py
+    ├── telegram_scrapper.py        # script for scrapping telegram channel 
+    ├── preprocessing.py            # script for amharic data processing
+    ├── ner_labelling.py            # script file to label amharic tokens in conll format
+    ├── ner_finetuning.py           # script file to to fine-tune a Named Entity Recognition (NER) model 
+    ├── model_comparison.py         # script file to to compares different models for Named Entity Recognition (NER)
     └── README.md                   # Description of scripts directory
     
 ```
@@ -73,6 +84,14 @@ Telegram-ECommerce-NER/
 - Source: Messages and data from Ethiopian-based e-commerce Telegram channel([SINA KIDS/ሲና ኪድስⓇ](https://t.me/sinayelj))
 - scraped data: [SINA KIDS](link-to-sample-data)
 - labeled NER dataset: [SINA KIDS](link-to-dataset)
+
+## Models
+
+We experiment with the following models:
+
+- xlm-roberta-base
+- distilbert-base-multilingual-cased
+- bert-base-multilingual-cased
 
 
 ## Team Members
